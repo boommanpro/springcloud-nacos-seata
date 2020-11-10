@@ -1,0 +1,6 @@
+# Project exclude paths
+/base-framework-mysql-support/target/
+/order-service/target/
+/storage-service/target/
+*.iml
+.idea
