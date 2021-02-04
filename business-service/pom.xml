@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>order-service</artifactId>
+    <artifactId>business-service</artifactId>
 
     <dependencies>
         <dependency>
@@ -32,10 +32,6 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -64,7 +60,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.alibaba.seata.sample.order.service.OrderApplication</mainClass>
+                    <mainClass>com.alibaba.seata.sample.business.service.BusinessApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>
@@ -77,5 +73,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
